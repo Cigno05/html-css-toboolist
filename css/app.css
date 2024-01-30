@@ -11,7 +11,8 @@ menu{
 }
 .container{
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1024px;
+    
 }
 .logo-title{
     padding: 10px;
@@ -27,4 +28,29 @@ menu{
 }
 main{
     background-color: rgb(221, 221, 221);
+    padding-top: 40px;
+}
+.button, .list{
+    background-color: white;
+    padding: 20px;
+    border-bottom: 2px;
+    border-color: rgb(221, 221, 221);
+    
+}
+.task, .section{
+    border-radius: 5px;
+    padding: 5px;
+}
+.task{
+    background-color:#47ADF1 ;
+    color: white;
+    font-weight: bold;
+    border-width: 0;
+}
+.section{
+    color: rgb(201, 201, 201);
+    font-weight: bold;
+    border-width: 2px;
+    border-color: rgb(201, 201, 201);
+    border-style: none;
 }
