@@ -11,5 +11,20 @@ menu{
 }
 .container{
     margin: 0 auto;
-    max-width: 1024px;
+    max-width: 800px;
+}
+.logo-title{
+    padding: 10px;
+    
+}
+.title{
+    display: inline;
+    font-size: 50px;
+    vertical-align: middle;
+}
+.logo{
+    vertical-align: middle;
+}
+main{
+    background-color: rgb(221, 221, 221);
 }
