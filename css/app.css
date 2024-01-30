@@ -30,11 +30,12 @@ main{
     background-color: rgb(221, 221, 221);
     padding-top: 40px;
 }
-.button, .list{
+.button{
     background-color: white;
     padding: 20px;
-    border-bottom: 2px;
-    border-color: rgb(221, 221, 221);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
     
 }
 .task, .section{
@@ -53,4 +54,25 @@ main{
     border-width: 2px;
     border-color: rgb(201, 201, 201);
     border-style: none;
+}
+.list{
+    background-color: white;
+    padding-left: 20px;
+}
+.title-list{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.sector{
+    padding: 5px;
+    font-size: 10px;
+    border-width: 0;
+    border-radius: 10px;
+
+}
+.editional{
+    background-color: #47ADF1 ;
+    color: white;
 }
